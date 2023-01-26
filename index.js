@@ -19,13 +19,13 @@ __div.forEach((item) => {
             if (a === 2) {
                 __tosh.classList = ' delete tosh play'
                 let div = document.createElement("p")
-                div.textContent = 'Lose'
+                div.textContent = 'victory'
                 __elseList.append(div);
             }
             else if (a === 3) {
                 __qogoz.classList = 'delete tosh play'
                 let div = document.createElement("p")
-                div.textContent = 'Victory'
+                div.textContent = 'lose'
                 __elseList.append(div);
             }
             else {
@@ -51,7 +51,7 @@ __div.forEach((item) => {
             else if (a === 3) {
                 __qaychi.classList = 'delete tosh play'
                 let div = document.createElement("p")
-                div.textContent = 'Victory'
+                div.textContent = 'victory'
                 __elseList.append(div);
             }
             else {
@@ -71,13 +71,13 @@ __div.forEach((item) => {
             if (a === 1) {
                 __qogoz.classList = ' delete tosh play'
                 let div = document.createElement("p")
-                div.textContent = 'Lose'
+                div.textContent = 'victory'
                 __elseList.append(div);
             }
             else if (a === 2) {
                 __qaychi.classList = 'delete tosh play'
                 let div = document.createElement("p")
-                div.textContent = 'Victory'
+                div.textContent = 'lose'
                 __elseList.append(div);
             }
             else {
