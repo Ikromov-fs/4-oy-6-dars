@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, #455767, #153a9e);
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.big__part {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-250px);
+}
+
+.qaychi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 15px solid #fffb00;
+    position: absolute;
+    left: 25%;
+    background: #fff;
+    cursor: pointer;
+}
+
+.qaychi:hover {
+    border: 15px solid transparent;
+
+}
+
+.qaychi:active {
+    border: 15px solid #14ee14;
+}
+
+.qogoz:hover {
+    border: 15px solid transparent;
+
+}
+
+.qogoz:active {
+    border: 15px solid #14ee14;
+}
+
+.tosh:hover {
+    border: 15px solid transparent;
+
+}
+
+.tosh:active {
+    border: 15px solid #14ee14;
+}
+
+.qogoz {
+    position: absolute;
+    right: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 15px solid #0660fc;
+    background: #fff;
+    cursor: pointer;
+}
+
+.tosh {
+    position: absolute;
+    top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 15px solid #ff0000;
+    background: #fff;
+    cursor: pointer;
+}
+
+.delete {
+    display: none;
+}
+
+.elseList {
+    display: flex;
+    position: absolute;
+    top: 10vh;
+    font-size: 60px;
+    color: #ad5b20;
+    font-weight: 700;
+}
+
+.rules {
+    position: absolute;
+    top: 55vh;
+    right: 5vh;
+    padding: 8px 50px;
+    /* background-color: #f1d1d1; */
+    border: 3px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+}
+
+.rules:hover {
+    background: #fff;
+    color: #000;
+    transition: 0.5s ease;
+    font-size: 22px;
+    border: none;
+}
+
+.rules:active {
+    background: #ad5b20;
+    transition: 0.2s ease;
+    border: none;
+}
